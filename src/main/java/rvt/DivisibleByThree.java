@@ -1,13 +1,13 @@
 package rvt;
-
+    
 public class DivisibleByThree {
     public static void main(String[] args) {
         divisibleByThreeInRange(2, 10);
     }
     public static void divisibleByThreeInRange(int start, int end) {
-        for (int i = start; i <= end; i++) {
-            if (i % 3 == 0) {
-                System.out.println(i);
+        for (int a = start; a <= end; a++) {
+            if (a % 3 == 0) {
+                System.out.println(a);
             }
         }
     }
